@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Grade Calculator</title>
+  <link rel="stylesheet" href="app.css">
+  <script src="app.js"></script>
+</head>
+<body>
+  <div class="app">
+    <div>
+      <h1>CMCIP</h1>
+      <hr>
+    </div>
+      <div class="grade-mean-card">
+        <h2 id="grade-mean-number">-</h2>
+        <h4>Media</h4>
+      </div>
+      <h4 id="grade-count">0 calificativ(e)</h4>
+      <div id="grade-list" class="grade-list">
+      </div>
+      <div class="reset-container">
+        <button id="reset-button" onclick="resetGrades()">Reset</button>
+      </div>
+      <div class="add-grade-buttons-container">
+        <div>
+          <button onclick="addGrade('Foarte Bine')">Foarte Bine</button>
+          <button onclick="addGrade('Bine')">Bine</button>
+          <button onclick="addGrade('Suficient')">Suficient</button>
+          <button onclick="addGrade('Insuficient')">Insuficient</button>
+        </div>
+      </div>
+  </div>
+
+</body>
+</html>
